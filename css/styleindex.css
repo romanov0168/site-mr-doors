@@ -1,0 +1,1302 @@
+img {
+    display: block;
+}
+
+body {
+    margin: 0;
+    background-color: white;
+    font-family: 'CeraPro-Regular';
+    letter-spacing: 0.4px;
+    outline: 0;
+    font-size: 16px;
+}
+
+h1 {
+    font-size: 120.5px;
+    font-family: 'CeraPro-Bold';
+    text-align: center;
+}
+
+h2 {
+    font-size: 61.5px;
+    font-family: 'CeraPro-Bold';
+    text-align: center;
+}
+
+h3 {
+    font-size: 24px;
+    font-family: 'CeraPro-Bold';
+    text-align: center;
+}
+
+h4 {
+    font-size: 24px;
+    font-family: 'CeraPro-Regular';
+    text-align: center;
+}
+
+p {
+    text-align: center;
+}
+
+header {
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+section {
+    max-width: 1400px;
+    margin: 0 auto;
+    background-color: white;
+}
+
+.wrapper {
+    margin: 0 25px;
+}
+
+.button-1 {
+    display: flex;
+    width: 302px;
+    height: 65px;
+    background-color: #af2318;
+    color: white;
+    font-size: 24px;
+    font-family: 'CeraPro-Bold';
+    justify-content: center;
+    align-items: center;
+}
+
+.button-2 {
+    display: flex;
+    width: 298px;
+    height: 61px;
+    border: 2px solid white;
+    color: white;
+    font-size: 24px;
+    font-family: 'CeraPro-Bold';
+    justify-content: center;
+    align-items: center;
+}
+
+.button-3 {
+    display: flex;
+    width: 302px;
+    height: 65px;
+    background-color: #af2318;
+    color: white;
+    font-size: 18px;
+    font-family: 'CeraPro-Regular';
+    justify-content: center;
+    align-items: center;
+}
+
+.button-1:hover,
+.button-2:hover,
+.button-3:hover {
+    background-color: #821912;
+}
+
+.button-1:active,
+.button-2:active,
+.button-3:active {
+    background-color: #dc2b1e;
+}
+
+.banner-1 {
+    height: 580px;
+    background: url(../img/%D0%A1%D0%BD%D0%B8%D0%BC%D0%BE%D0%BA%20%D1%8D%D0%BA%D1%80%D0%B0%D0%BD%D0%B0%202020-09-22%20%D0%B2%2008.07.58.png) center;
+    background-size: cover;
+}
+
+.banner-2 {
+    height: 692px;
+    background: url(../img/deborah-cortelazzi-gREquCUXQLI-unsplash.png) center;
+    background-size: cover;
+}
+
+.banner-3 {
+    height: 722px;
+    background: url(../img/kara-eads-buhmhprfo3g-unsplash.png) center;
+    background-size: cover;
+}
+
+.text-block {
+    display: flex;
+    align-items: center;
+    flex-flow: column;
+}
+
+.text-block > div:last-child {
+    display: flex;
+    max-width: 1205px;
+    padding-bottom: 54px;
+    align-items: center;
+    flex-flow: column;
+}
+
+.text-block div h2 {
+    margin: 40px 0 24px;
+}
+
+.text-block div p {
+    margin: 0 0 16px;
+    font-size: 31px;
+}
+
+.header-1 {
+    display: flex;
+    min-height: 59px;
+    background-color: #253370;
+    align-items: center;
+    justify-content: space-between;
+    flex-flow: row nowrap;
+}
+
+.header-1 div a {
+    margin: 5px;
+    padding: 5px;
+    color: white;
+    text-decoration: none;
+}
+
+.header-1 div {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+}
+
+.header-1 .header-buttons a:first-child {
+    margin-right: 55px;
+    margin-left: 20px;
+}
+
+.header-1 .header-buttons a {
+    border-radius: 3px;
+    font-size: 14px;
+    box-shadow: 0 0 3px 0 lightgray;
+}
+
+.header-1 .header-buttons a:hover {
+    background-color: #182149;
+}
+
+.header-1 .header-buttons a:active {
+    background-color: #324495;
+}
+
+.header-1 .header-links {
+    font-size: 17px;
+    justify-content: flex-end;
+}
+
+.header-1 .header-links a:hover {
+    filter: brightness(0.8);
+}
+
+.header-1 .header-links a:active {
+    filter: brightness(1.2);
+}
+
+.header-1 .header-links .block a img {
+    width: 29px;
+    filter: invert();
+}
+
+.header-1 .header-links .block a:first-child {
+    margin: 0 10px;
+}
+
+.header-1 .header-links .block a:last-child {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+.header-2 {
+    display: flex;
+    min-height: 82px;
+    background-color: white;
+    font-family: 'CeraPro-Bold';
+    align-items: center;
+}
+
+.header-2 > a:first-child {
+    margin-left: 24px;
+}
+
+.header-2 a {
+    margin-right: 22px;
+    padding: 5px;
+    color: black;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+.header-2 .menu {
+    display: flex;
+    align-items: center;
+}
+
+.header-2 .menu a:first-child {
+    margin-right: 51px;
+    margin-left: 32px;
+}
+
+.header-2 .menu .current {
+    text-decoration: underline;
+}
+
+.header-2 .menu a {
+    margin-bottom: 15px;
+    padding-top: 29px;
+    padding-bottom: 10px;
+}
+
+.header-2 .menu a:hover {
+    background: #e3e3e3;
+}
+
+.header-2 .menu a:active {
+    background: #f4f4f4;
+}
+
+.header-2 .mob-menu {
+    display: none;
+}
+
+.banner-1 {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    flex-flow: column;
+}
+
+.banner-1 .sticker-1 {
+    display: flex;
+    width: 547px;
+    height: 76px;
+    background-color: #345daf;
+    color: white;
+    font-size: 46px;
+    font-family: 'CeraPro-Bold';
+    justify-content: center;
+    align-items: center;
+}
+
+.banner-1 .sticker-2 {
+    display: flex;
+    width: 300px;
+    height: 57px;
+    margin: -13px 40px 21px 0;
+    background-color: #d61229;
+    color: white;
+    font-size: 35.5px;
+    font-family: 'CeraPro-Regular';
+    justify-content: center;
+    align-items: center;
+}
+
+.project-work {
+    display: flex;
+    color: white;
+}
+
+.project-work .in-the-salon {
+    width: 756px;
+    max-height: 898px;
+    margin-right: 4px;
+    background: url(../img/kari-shea-AMyjxxLEHU4-unsplash.png) center;
+    background-size: cover;
+}
+
+.project-work .from-home {
+    width: 756px;
+    max-height: 898px;
+    background: url(../img/alexandru-acea-Zg9R__O-8fM-unsplash.png) center;
+    background-size: cover;
+}
+
+.project-work .in-the-salon > div {
+    width: 100%;
+    height: 100%;
+    /*    background-image: url(../img/%D0%9F%D1%80%D1%8F%D0%BC%D0%BE%D1%83%D0%B3%D0%BE%D0%BB%D1%8C%D0%BD%D0%B8%D0%BA%203.png);*/
+    background-color: #163072cf;
+}
+
+.project-work .from-home > div {
+    width: 100%;
+    height: 100%;
+    /*    background-image: url(../img/%D0%9F%D1%80%D1%8F%D0%BC%D0%BE%D1%83%D0%B3%D0%BE%D0%BB%D1%8C%D0%BD%D0%B8%D0%BA%207.png);*/
+    background-color: #d11b1dd3;
+}
+
+.project-work .in-the-salon > div > div {
+    width: 100%;
+    height: 100%;
+    /*    background-image: url(../img/%D0%9F%D1%80%D1%8F%D0%BC%D0%BE%D1%83%D0%B3%D0%BE%D0%BB%D1%8C%D0%BD%D0%B8%D0%BA%203%20%D0%BA%D0%BE%D0%BF%D0%B8%D1%8F.png);*/
+}
+
+.project-work .from-home > div > div {
+    width: 100%;
+    height: 100%;
+    /*    background-image: url(../img/%D0%9F%D1%80%D1%8F%D0%BC%D0%BE%D1%83%D0%B3%D0%BE%D0%BB%D1%8C%D0%BD%D0%B8%D0%BA%207%20%D0%BA%D0%BE%D0%BF%D0%B8%D1%8F%202.png);*/
+}
+
+.project-work div div div > div {
+    display: flex;
+    padding: 46px 0 45px;
+    align-items: center;
+    flex-flow: column;
+}
+
+.project-work div div div div h3 {
+    margin: 0;
+}
+
+.project-work div div div div h1 {
+    margin: -12px 0;
+}
+
+.project-work div div div div p {
+    margin: 0;
+    font-size: 24px;
+}
+
+.project-work div div div div p:nth-child(7) {
+    max-width: 433px;
+}
+
+.project-work div div div div p:nth-child(9) {
+    margin-bottom: 54px;
+}
+
+.project-work div div div div a {
+    text-decoration: none;
+}
+
+.special-offers {
+    background-color: #253370;
+}
+
+.special-offers div h2 {
+    margin: 18px 0 20px;
+    color: white;
+}
+
+.special-offers > div {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+}
+
+.special-offers > div:last-child {
+    padding-bottom: 54px;
+}
+
+.special-offers > div > div {
+    display: flex;
+    /*    width: 428px;*/
+    width: 30.57%;
+    margin: 5px;
+    background-color: white;
+    align-items: center;
+    justify-content: space-between;
+    flex-flow: column;
+}
+
+.special-offers div div img {
+    width: 100%;
+}
+
+.special-offers div div .wrapper {
+    margin: 0 32px;
+}
+
+.special-offers div div div h4 {
+    margin: 16px 0 12px;
+}
+
+.special-offers div div div p {
+    margin-top: 0px;
+    font-size: 18px;
+}
+
+.special-offers div div div a {
+    text-decoration: none;
+}
+
+.special-offers div div div a .button-1 {
+    margin-bottom: 25px;
+}
+
+.profitable-promotions {
+    display: flex;
+    flex-flow: column;
+}
+
+.profitable-promotions div h2 {
+    margin: 42px 0;
+}
+
+.profitable-promotions .block {
+    display: flex;
+    height: 837px;
+    align-content: space-between;
+    justify-content: space-between;
+    flex-flow: column wrap;
+}
+
+.profitable-promotions .block a:first-child > div {
+    width: 540px;
+    height: 827px;
+    margin-left: 0;
+    background: url(../img/jean-philippe-delberghe-feijc-nqWKM-unsplash.png) center;
+    background-size: cover;
+    justify-content: center;
+}
+
+.profitable-promotions .block a > div {
+    display: flex;
+    width: 410px;
+    height: 403px;
+    margin: 5px;
+    align-items: flex-end;
+}
+
+.profitable-promotions .block a > div:hover {
+    filter: brightness(1.2);
+}
+
+.profitable-promotions .block a > div:active {
+    filter: brightness(0.8);
+}
+
+.profitable-promotions .block a > div:active .sticker {
+    filter: none;
+}
+
+.profitable-promotions .block a:nth-child(2) > div {
+    background: url(../img/section-4-4.png) center;
+    background-size: cover;
+}
+
+.profitable-promotions .block a:nth-child(3) > div {
+    background: url(../img/skidka_na_kuhni.png) center;
+    background-size: cover;
+}
+
+.profitable-promotions .block a:nth-child(4) > div {
+    margin-right: 0;
+    background: url(../img/45_na_dveri.png) center;
+    background-size: cover;
+}
+
+.profitable-promotions .block a:nth-child(5) > div {
+    margin-right: 0;
+    background: url(../img/akciya_podarok_detskie.png) center;
+    background-size: cover;
+}
+
+.profitable-promotions .block a div .sticker {
+    display: flex;
+    width: 218px;
+    height: 47px;
+    background-color: white;
+    font-size: 24px;
+    font-family: 'CeraPro-Bold';
+    justify-content: center;
+    align-items: center;
+}
+
+.profitable-promotions .block a:first-child div .wrapper {
+    margin-left: 0;
+}
+
+.profitable-promotions .block a div .wrapper {
+    margin: 0 0 35px 35px;
+}
+
+.profitable-promotions > div:last-child {
+    align-self: center;
+}
+
+.profitable-promotions div a {
+    color: black;
+    text-decoration: none;
+}
+
+.profitable-promotions div a .button-3 {
+    margin: 26px 0 37px;
+}
+
+.text-block-2 > div {
+    max-width: 1237px;
+}
+
+.text-block-2 div a {
+    text-decoration: none;
+}
+
+@media screen and (max-width: 1379px) {
+    .profitable-promotions .block a:first-child > div {
+        width: 513px;
+        height: 827px;
+    }
+
+    .profitable-promotions .block a > div {
+        width: 389.5px;
+        height: 403px;
+    }
+}
+
+@media screen and (max-width: 1378px) {
+    .project-work .in-the-salon div div div h3 {
+        max-width: 422px;
+        margin: 0 auto;
+    }
+}
+
+@media screen and (max-width: 1330px) {
+    /*
+    body {
+        font-size: 17px;
+    }
+*/
+
+    .special-offers > div > div {
+        width: 30.57%;
+        ;
+    }
+
+    .special-offers div div img {
+        width: 100%
+    }
+
+    .profitable-promotions .block a:first-child > div {
+        width: 484.5px;
+        height: 827px;
+    }
+
+    .profitable-promotions .block a > div {
+        width: 368px;
+        height: 403px;
+    }
+}
+
+@media screen and (max-width: 1260px) {
+    /*
+    body {
+        font-size: 16.5px;
+    }
+*/
+
+    .profitable-promotions .block a:first-child > div {
+        width: 456px;
+        height: 827px;
+    }
+
+    .profitable-promotions .block a > div {
+        width: 346px;
+        height: 403px;
+    }
+}
+
+@media screen and (max-width: 1190px) {
+    /*
+    body {
+        font-size: 16px;
+    }
+*/
+
+    .profitable-promotions .block a:first-child > div {
+        width: 441px;
+        height: 827px;
+    }
+
+    .profitable-promotions .block a > div {
+        width: 335px;
+        height: 403px;
+    }
+}
+
+@media screen and (max-width: 1130px) {
+    /*
+    body {
+        font-size: 15.5px;
+    }
+*/
+
+    h1 {
+        font-size: 116.5px;
+    }
+
+    h2 {
+        font-size: 59.5px;
+    }
+
+    h3,
+    h4,
+    .button-1,
+    .button-2,
+    .project-work div div div div p,
+    .profitable-promotions .block div .sticker {
+        font-size: 23px;
+    }
+
+    .banner-1 {
+        height: 562px;
+    }
+
+    .banner-2 {
+        height: 670.5px;
+    }
+
+    .banner-3 {
+        height: 699.5px;
+    }
+
+    .text-block div p {
+        font-size: 30px;
+    }
+
+    .header-1 .header-buttons a {
+        font-size: 13.5px;
+    }
+
+    .header-1 .header-links a {
+        font-size: 16.5px;
+    }
+
+    .header-1 .header-links .block a img {
+        width: 28px;
+    }
+
+    .header-2 a {
+        font-size: 17.5px;
+    }
+
+    .header-2 a img {
+        width: 151px;
+    }
+
+    .banner-1 .sticker-1 {
+        font-size: 44.5px;
+    }
+
+    .banner-1 .sticker-2 {
+        font-size: 34.5px;
+    }
+
+    .button-3,
+    .special-offers div div div p {
+        font-size: 17.5px;
+    }
+
+    .profitable-promotions .block {
+        display: flex;
+        height: 1261px;
+        align-content: space-around;
+        justify-content: space-between;
+        flex-flow: column wrap;
+    }
+
+    .profitable-promotions .block a:first-child > div {
+        width: 540px;
+        height: 827px;
+    }
+
+    .profitable-promotions .block a:nth-child(2) > div {
+        width: 540px;
+        justify-content: center;
+    }
+
+    .profitable-promotions .block a:nth-child(2) div .wrapper {
+        margin-left: 0;
+    }
+
+    .profitable-promotions .block a > div {
+        width: 410px;
+        height: 403px;
+    }
+
+    .profitable-promotions .block a:first-child > div {
+        margin: 5px;
+        order: 1;
+    }
+
+    .profitable-promotions .block a > div:nth-child(2) {
+        margin: 5px;
+        order: 3;
+    }
+
+    .profitable-promotions .block a > div:nth-child(3) {
+        margin: 5px;
+        order: 4;
+    }
+
+    .profitable-promotions .block a > div:nth-child(4) {
+        margin: 5px;
+        order: 2;
+    }
+
+    .profitable-promotions .block a > div:nth-child(5) {
+        margin: 5px;
+        order: 5;
+    }
+}
+
+@media screen and (max-width: 1060px) {
+    /*
+    body {
+        font-size: 15px;
+    }
+*/
+
+    h1 {
+        font-size: 113px;
+    }
+
+    h2 {
+        font-size: 57.5px;
+    }
+
+    h3,
+    h4,
+    .button-1,
+    .button-2,
+    .project-work div div div div p,
+    .profitable-promotions .block div .sticker {
+        font-size: 22.5px;
+    }
+
+    .banner-1 {
+        height: 544px;
+    }
+
+    .banner-2 {
+        height: 649px;
+    }
+
+    .banner-3 {
+        height: 677px;
+    }
+
+    .text-block div p {
+        font-size: 29px;
+    }
+
+    .header-1 .header-buttons a {
+        font-size: 13px;
+    }
+
+    .header-1 .header-links a {
+        font-size: 16px;
+    }
+
+    .header-1 .header-links .block a img {
+        width: 27px;
+    }
+
+    .header-2 a {
+        font-size: 17px;
+    }
+
+    .header-2 a img {
+        width: 146px;
+    }
+
+    .banner-1 .sticker-1 {
+        font-size: 43px;
+    }
+
+    .banner-1 .sticker-2 {
+        font-size: 33.5px;
+    }
+
+    .special-offers > div > div {
+        width: 323px;
+    }
+
+    .button-3,
+    .special-offers div div div p {
+        font-size: 16.5px;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    /*
+    body {
+        font-size: 14px
+    }
+*/
+
+    h1 {
+        font-size: 105.5px;
+    }
+
+    h2 {
+        font-size: 54px;
+    }
+
+    h3,
+    h4,
+    .button-1,
+    .button-2,
+    .project-work div div div div p,
+    .profitable-promotions .block div .sticker {
+        font-size: 21px;
+    }
+
+    .banner-1 {
+        height: 507.5px;
+    }
+
+    .banner-2 {
+        height: 605.5px;
+    }
+
+    .banner-3 {
+        height: 631.5px;
+    }
+
+    .text-block div p {
+        font-size: 27px;
+    }
+
+    .header-1 .header-buttons a {
+        font-size: 12px;
+    }
+
+    .header-1 .header-links a {
+        font-size: 15px;
+    }
+
+    .header-1 .header-links .block a img {
+        width: 25px;
+    }
+
+    .header-2 a {
+        font-size: 16px;
+    }
+
+    .header-2 a img {
+        width: 137px;
+    }
+
+    .banner-1 .sticker-1 {
+        font-size: 40.5px;
+    }
+
+    .banner-1 .sticker-2 {
+        font-size: 31px;
+    }
+
+    .special-offers > div > div,
+    .special-offers div div img {
+        width: 387px;
+    }
+
+    .button-3,
+    .special-offers div div div p {
+        font-size: 15.5px;
+    }
+
+    .profitable-promotions .block {
+        height: 1134.5px;
+    }
+
+    .profitable-promotions .block a:first-child > div {
+        width: 484.5px;
+        height: 742px;
+    }
+
+    .profitable-promotions .block a:nth-child(2) > div {
+        width: 484.5px;
+    }
+
+    .profitable-promotions .block a > div {
+        width: 368px;
+        height: 361.5px;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    /*
+    body {
+        font-size: 13px;
+    }
+*/
+
+    h1 {
+        font-size: 98px;
+    }
+
+    h2 {
+        font-size: 50px;
+    }
+
+    h3,
+    h4,
+    .button-1,
+    .button-2,
+    .project-work div div div div p,
+    .profitable-promotions .block div .sticker {
+        font-size: 19.5px;
+    }
+
+    .banner-1 {
+        height: 471px;
+    }
+
+    .banner-2 {
+        height: 562.5px;
+    }
+
+    .banner-3 {
+        height: 586.5px;
+    }
+
+    .text-block div p {
+        font-size: 25px;
+    }
+
+    .header-1 .header-buttons a {
+        font-size: 11px;
+    }
+
+    .header-1 .header-links a {
+        font-size: 14px;
+    }
+
+    .header-1 .header-links .block a img {
+        width: 24px;
+    }
+
+    .header-2 a {
+        font-size: 14.5px;
+    }
+
+    .header-2 a img {
+        width: 127px;
+    }
+
+    .banner-1 .sticker-1 {
+        font-size: 37.5px;
+    }
+
+    .banner-1 .sticker-2 {
+        font-size: 29px;
+    }
+
+    .special-offers > div > div,
+    .special-offers div div img {
+        width: 367px;
+    }
+
+    .button-3,
+    .special-offers div div div p {
+        font-size: 14px;
+    }
+
+    .profitable-promotions .block {
+        height: 940px;
+    }
+
+    .profitable-promotions .block a:first-child > div {
+        width: 399px;
+        height: 611px;
+    }
+
+    .profitable-promotions .block a:nth-child(2) > div {
+        width: 399px;
+    }
+
+    .profitable-promotions .block a > div {
+        width: 303px;
+        height: 298px;
+    }
+}
+
+@media screen and (max-width: 841px) {
+    .project-work .from-home div div div p:nth-child(5) {
+        max-width: 82px;
+        margin: 0 auto;
+    }
+}
+
+/* Tablet */
+
+@media screen and (max-width: 756px) {
+    .wrapper {
+        margin-right: 25px !important;
+        margin-left: 25px !important;
+    }
+
+    .button-1,
+    .button-3 {
+        width: 260px;
+        height: 56px;
+    }
+
+    .button-2 {
+        width: 256px;
+        height: 52px;
+    }
+
+    .header-1 .header-buttons a:first-child {
+        margin-right: 15px;
+    }
+
+    .header-2 {
+        justify-content: space-between;
+    }
+
+    .header-2 .menu {
+        display: none;
+    }
+
+    .header-2 .mob-menu {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+    }
+
+    .header-2 .mob-menu .mobile_menu_container ul li:first-child a {
+        text-decoration: underline;
+    }
+
+    .banner-1 .sticker-1 {
+        width: 410.5px;
+        height: 57px;
+    }
+
+    .banner-1 .sticker-2 {
+        width: 225px;
+        height: 43px;
+    }
+
+    .project-work {
+        flex-flow: row wrap;
+    }
+
+    .project-work .in-the-salon {
+        margin: 0 0 4px;
+    }
+
+    .project-work .in-the-salon,
+    .project-work .in-the-salon div,
+    .project-work .from-home,
+    .project-work .from-home div {
+        background-size: cover;
+    }
+
+    .project-work .in-the-salon div div div h3,
+    .project-work .from-home div div div p:nth-child(5) {
+        max-width: none;
+    }
+
+    .special-offers > div > div,
+    .special-offers div div img {
+        width: 333px;
+    }
+
+    .profitable-promotions .block {
+        height: 835px;
+    }
+
+    .profitable-promotions .block a:first-child > div {
+        width: 353px;
+        height: 540.5px;
+    }
+
+    .profitable-promotions .block a:nth-child(2) > div {
+        width: 353px;
+    }
+
+    .profitable-promotions .block a > div {
+        width: 268px;
+        height: 263.5px;
+    }
+}
+
+@media screen and (max-width: 698px) {
+
+    .project-work .in-the-salon,
+    .project-work .in-the-salon div,
+    .project-work .from-home,
+    .project-work .from-home div {
+        background-size: auto;
+    }
+}
+
+@media screen and (max-width: 685px) {
+
+    .special-offers > div > div,
+    .special-offers div div img {
+        width: 310px;
+    }
+}
+
+@media screen and (max-width: 639px) {
+
+    .special-offers > div > div,
+    .special-offers div div img {
+        width: 333px;
+    }
+}
+
+@media screen and (max-width: 630px) {
+    .profitable-promotions .block {
+        height: auto;
+    }
+
+    .profitable-promotions .block a:first-child > div {
+        width: 353px;
+        height: 540.5px;
+    }
+
+    .profitable-promotions .block a > div,
+    .profitable-promotions .block a:nth-child(2) > div {
+        width: 268px;
+        height: 263.5px;
+    }
+
+    .profitable-promotions .block a:nth-child(3),
+    .profitable-promotions .block a:nth-child(5) {
+        align-self: flex-end;
+    }
+}
+
+@media screen and (max-width: 619px) {
+    .header-1 .header-links {
+        align-items: flex-end;
+        flex-flow: column nowrap;
+    }
+
+    .header-1 .header-buttons a:first-child {
+        margin-right: 55px;
+    }
+}
+
+@media screen and (max-width: 557px) {
+    .header-1 .header-buttons a:first-child {
+        margin-right: 15px;
+    }
+}
+
+/* Mobile */
+
+@media screen and (max-width: 495px) {
+    /*
+    body {
+        font-size: 12px;
+    }
+*/
+
+    h1 {
+        font-size: 90.5px;
+    }
+
+    h2 {
+        font-size: 39px;
+    }
+
+    h3,
+    h4,
+    .button-1,
+    .button-2,
+    .project-work div div div div p,
+    .profitable-promotions .block div .sticker {
+        font-size: 18px;
+    }
+
+    .banner-1 {
+        height: 435px;
+    }
+
+    .banner-2 {
+        height: 519px;
+    }
+
+    .banner-3 {
+        height: 541.5px;
+    }
+
+    .text-block div p {
+        font-size: 23.5px;
+    }
+
+    .header-1 .header-buttons {
+        flex-flow: column nowrap;
+        align-items: flex-start;
+    }
+
+    .header-1 .header-buttons a {
+        margin-right: 0 !important;
+        margin-left: 10px !important;
+        font-size: 10px;
+    }
+
+    .header-1 .header-links a:first-child {
+        margin-left: 0 !important;
+    }
+
+    .header-1 .header-links a {
+        font-size: 13px;
+    }
+
+    .header-1 .header-links .block a img {
+        width: 22px;
+    }
+
+    .header-2 a {
+        font-size: 13.5px;
+    }
+
+    .header-2 a img {
+        width: 117px;
+    }
+
+    .header-2 .mob-menu .menu_container a svg {
+        width: 44px;
+    }
+
+    .banner-1 .sticker-1 {
+        width: 310px;
+        height: 57px;
+        font-size: 29px;
+    }
+
+    .banner-1 .sticker-2 {
+        width: 200px;
+        height: 43px;
+        font-size: 25.5px;
+    }
+
+    .special-offers > div > div,
+    .special-offers div div img {
+        width: 310px;
+    }
+
+    .button-3,
+    .special-offers div div div p {
+        font-size: 13px;
+    }
+
+    .profitable-promotions .block a:first-child > div {
+        width: 310px;
+        height: 499.5px;
+    }
+
+    .profitable-promotions .block a > div {
+        width: 268px;
+        height: 263.5px;
+    }
+}
