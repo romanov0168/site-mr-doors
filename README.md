@@ -13,5 +13,7 @@ General system requirements:
 5. be adaptive for different screen sizes of users:
 
 a) for desktop devices - from 757px horizontally and more;
+
 b) for tablet devices - from 496px to 756px horizontally;
+
 c) for mobile devices - from 320px to 495px horizontally.
