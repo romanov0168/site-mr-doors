@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'CeraPro-Bold'; /* Имя шрифта */
+    src: url('CeraPro-Bold.ttf'); /* Путь к файлу со шрифтом */
+   }
+
+@font-face {
+    font-family: 'CeraPro-Regular'; /* Имя шрифта */
+    src: url('CeraPro-Regular.ttf'); /* Путь к файлу со шрифтом */
+   }
