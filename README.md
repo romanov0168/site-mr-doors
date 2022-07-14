@@ -12,8 +12,6 @@ General system requirements:
 4. contain information for the browser and search engines on each page, such as: the Title element, the Description meta tag, etc.;
 5. be adaptive for different screen sizes of users:
 
-a) for desktop devices - from 757px horizontally and more;
-
-b) for tablet devices - from 496px to 756px horizontally;
-
-c) for mobile devices - from 320px to 495px horizontally.
+5.1. for desktop devices - from 757px horizontally and more;
+5.2. for tablet devices - from 496px to 756px horizontally;
+5.3. for mobile devices - from 320px to 495px horizontally.
